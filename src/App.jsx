@@ -3,7 +3,7 @@ import './App.css';
 import { db } from "./utils/firebaseConfig";
 import { ref, push } from "firebase/database";
 import { doc, setDoc, updateDoc } from "firebase/firestore"; 
-
+//test
 async function setDocument(docID){
   await setDoc(doc(db, "Display", docID), {})
 }
